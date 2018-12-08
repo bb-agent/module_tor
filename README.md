@@ -1,5 +1,5 @@
 module_tor
 ================
 
-FruityWifi Tor module
+BlackBulb Tor module
 

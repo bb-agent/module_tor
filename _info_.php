@@ -1,14 +1,14 @@
 <?
 $mod_name="tor";
 $mod_version="1.1";
-$mod_path="/usr/share/fruitywifi/www/modules/$mod_name";
+$mod_path="/usr/share/blackbulb/www/modules/$mod_name";
 $mod_logs="$log_path/$mod_name.log"; 
 $mod_logs_history="$mod_path/includes/logs/";
 $mod_panel="show";
 $mod_isup="ps auxww | grep 'tor ' | grep -v -e 'grep'";
 $mod_alias="Tor";
 # EXEC
-$bin_danger = "/usr/share/fruitywifi/bin/danger";
+$bin_danger = "/usr/share/blackbulb/bin/danger";
 $bin_tor = "/usr/bin/tor";
 $bin_iptables = "/sbin/iptables";
 $bin_sudo = "/usr/bin/sudo";
